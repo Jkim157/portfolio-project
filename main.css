@@ -166,8 +166,8 @@ body {
     font-size: 28px;
   }
   .work {
-    width: -webkit-calc(50%);
-    width: calc(50%);
+    width: 50%;
+    width: 50%;
   }
 }
 
