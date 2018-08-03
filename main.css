@@ -79,7 +79,7 @@ body {
   }
 
 .example-image {
-  max-width: 50%;
+  max-width: 45%;
   margin: 0;
   }
 
@@ -94,11 +94,6 @@ body {
   padding: 20px 0;
   }
 
-.footer {
-  border-top: 1px solid #000000;
-  padding: 5px 20px;
-  text-align: center;
-  }
 
 @media screen and (max-width: 579px) {
   .header {
@@ -146,17 +141,8 @@ body {
 @media screen and (min-width: 600px) {
   .header {
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     padding: 10px 20px;
   }
@@ -173,13 +159,8 @@ body {
     padding: 0 20px;
   }
   .list {
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-justify-content: space-between;
   }
   .title {
     font-size: 28px;
